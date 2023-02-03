@@ -1,5 +1,6 @@
 import math
-a = [9, 45]
+
+a = [9, 20]
 b = [13, 5]
 c = [14, 17]
 print ("A:",end = " ")
@@ -40,6 +41,7 @@ print ("CM:",end = " ")
 for i in range(len(a)):
     print(Mc[i], end = " ")
 
+print("")
 print("")
 print("AM =", AM)
 print("BM =", BM)
