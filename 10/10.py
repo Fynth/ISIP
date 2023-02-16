@@ -1,4 +1,4 @@
-#import math 
+import math 
 #  
 # a = [9, 20] 
 # b = [13, 5] 
@@ -102,7 +102,7 @@ class Triangle:
 		BM = math.sqrt((Mb[0] - b[0])**2 + (Mb[1] - b[1])**2) 
 		CM = math.sqrt((Mc[0] - c[0])**2 + (Mc[1] - c[1])**2) 
 		meridians = [AM, BM, CM]
-		return meridians
+		return medians
 		
 	def heights(self, a, b, c):
 		
