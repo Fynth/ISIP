@@ -1,8 +1,8 @@
 import random
-def sort(a, compar):
+def sort(a, comp):
 	for n in range(0, len(a)):
 		for i in range(0, len(a) - 1):
-			if compar(a[i], a[i+1]):
+			if comp(a[i], a[i+1]):
 				a[i+1], a[i] = a[i], a[i+1]
 def comp(x, y):
 	return x < y
